@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miteksystems.misnap.misnapworkflow">
+
+    <application>
+        <activity
+            android:name=".MiSnapWorkflowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:launchMode="standard"
+            android:hardwareAccelerated="true"
+            android:process=":MiSnap"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/MiSnapWorkflowTheme" />
+    </application>
+
+</manifest>

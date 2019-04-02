@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gauge_finish_imgs">
+        <item>@drawable/misnap_gauge_fill_100</item>
+        <item>@drawable/misnap_gauge_fill_00</item>
+        <item>@drawable/misnap_gauge_fill_100</item>
+        <item>@drawable/misnap_gauge_fill_00</item>
+        <item>@drawable/misnap_gauge_fill_100</item>
+    </array>
+</resources>

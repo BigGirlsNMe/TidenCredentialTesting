@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bug_animation">
+        <item>@drawable/misnap_bug_animation_01</item>
+        <item>@drawable/misnap_bug_animation_02</item>
+        <item>@drawable/misnap_bug_animation_03</item>
+        <item>@drawable/misnap_bug_animation_04</item>
+        <item>@drawable/misnap_bug_animation_05</item>
+        <item>@drawable/misnap_bug_animation_06</item>
+        <item>@drawable/misnap_bug_animation_07</item>
+        <item>@drawable/misnap_bug_animation_08</item>
+        <item>@drawable/misnap_bug_animation_09</item>
+        <item>@drawable/misnap_bug_animation_10</item>
+        <item>@drawable/misnap_bug_animation_11</item>
+        <item>@drawable/misnap_bug_animation_12</item>
+        <item>@drawable/misnap_bug_animation_13</item>
+        <item>@drawable/misnap_bug_animation_14</item>
+        <item>@drawable/misnap_bug_animation_15</item>
+        <item>@drawable/misnap_bug_animation_16</item>
+        <item>@drawable/misnap_bug_animation_17</item>
+        <item>@drawable/misnap_bug_animation_18</item>
+        <item>@drawable/misnap_bug_animation_19</item>
+        <item>@drawable/misnap_bug_animation_20</item>
+        <item>@drawable/misnap_bug_animation_21</item>
+        <item>@drawable/misnap_bug_animation_22</item>
+        <item>@drawable/misnap_bug_animation_23</item>
+        <item>@drawable/misnap_bug_animation_24</item>
+        <item>@drawable/misnap_bug_animation_25</item>
+        <item>@drawable/misnap_bug_animation_26</item>
+        <item>@drawable/misnap_bug_animation_27</item>
+        <item>@drawable/misnap_bug_animation_28</item>
+        <item>@drawable/misnap_bug_animation_29</item>
+        <item>@drawable/misnap_bug_animation_30</item>
+        <item>@drawable/misnap_bug_animation_31</item>
+        <item>@drawable/misnap_bug_animation_32</item>
+        <item>@drawable/misnap_bug_animation_33</item>
+        <item>@drawable/misnap_bug_animation_34</item>
+        <item>@drawable/misnap_bug_animation_35</item>
+        <item>@drawable/misnap_bug_animation_36</item>
+        <item>@drawable/misnap_bug_animation_37</item>
+        <item>@drawable/misnap_bug_animation_38</item>
+        <item>@drawable/misnap_bug_animation_39</item>
+        <item>@drawable/misnap_bug_animation_40</item>
+    </array>
+</resources>

@@ -1,0 +1,67 @@
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/misnapworkflow_activity_vertical_margin"
+    android:paddingLeft="@dimen/misnapworkflow_activity_horizontal_margin"
+    android:paddingRight="@dimen/misnapworkflow_activity_horizontal_margin"
+    android:paddingTop="@dimen/misnapworkflow_activity_vertical_margin"
+    android:background="@drawable/misnap_help_repeating_background_dots">
+
+    <LinearLayout
+        android:id="@+id/misnap_detailed_failover_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/misnap_detailed_failover_button_background"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/misnap_detailed_failover_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/misnap_detailed_failover_first_btn_string"
+            android:contentDescription="@string/misnap_detailed_failover_first_btn_string"/>
+        <Button
+            android:id="@+id/misnap_detailed_failover_retry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/misnap_detailed_failover_third_btn_string"
+            android:contentDescription="@string/misnap_detailed_failover_third_btn_string"/>
+        <Button
+            android:id="@+id/misnap_detailed_failover_continue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/misnap_detailed_failover_second_btn_string"
+            android:contentDescription="@string/misnap_detailed_failover_second_btn_string"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/misnap_detailed_failover_reasons_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:text="@string/misnap_detailed_failover_title"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/misnap_detailed_failover_reasons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/misnap_detailed_failover_buttons"
+        app:layout_marginTopPercent="4.05%"
+        app:layout_marginBottomPercent="4.05%"
+        app:layout_marginLeftPercent="4.75%"
+        app:layout_marginRightPercent="8.8%"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <!-- NOTE: Several misnap_failover_tutorial_reason layouts will be programatically inserted here -->
+
+    </LinearLayout>
+
+</android.support.percent.PercentRelativeLayout>

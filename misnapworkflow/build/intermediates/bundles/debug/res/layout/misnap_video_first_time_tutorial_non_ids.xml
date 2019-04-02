@@ -1,0 +1,67 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/misnap_layout_videoFirstTimeTutorial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/misnap_help_repeating_background_dots"
+    android:paddingBottom="@dimen/misnapworkflow_activity_vertical_margin"
+    android:paddingLeft="@dimen/misnapworkflow_activity_horizontal_margin"
+    android:paddingRight="@dimen/misnapworkflow_activity_horizontal_margin"
+    android:paddingTop="@dimen/misnapworkflow_activity_vertical_margin">
+
+    <RelativeLayout
+        android:id="@+id/misnap_video_help_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/background_floating_material_dark">
+
+        <CheckBox
+            android:id="@+id/checkbox_dont_show_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ft_video_tut_btn"
+            android:text="@string/misnap_dont_show_again"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/ft_video_tut_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/misnap_video_ft_second_btn_string"
+            android:text="@string/misnap_video_ft_second_btn_string"
+            android:visibility="visible"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/misnap_video_help_buttons"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_marginBottomPercent="4.05%"
+        app:layout_marginLeftPercent="4.75%"
+        app:layout_marginRightPercent="8.8%"
+        app:layout_marginTopPercent="4.05%">
+
+        <include
+            android:id="@+id/misnap_video_ft_message_1"
+            layout="@layout/misnap_arrow_help_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/misnap_video_ft_message_2"
+            layout="@layout/misnap_arrow_help_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.percent.PercentRelativeLayout>

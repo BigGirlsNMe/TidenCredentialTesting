@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gauge_fill_imgs">
+        <item>@drawable/misnap_gauge_fill_00</item>
+        <item>@drawable/misnap_gauge_fill_05</item>
+        <item>@drawable/misnap_gauge_fill_10</item>
+        <item>@drawable/misnap_gauge_fill_15</item>
+        <item>@drawable/misnap_gauge_fill_20</item>
+        <item>@drawable/misnap_gauge_fill_25</item>
+        <item>@drawable/misnap_gauge_fill_30</item>
+        <item>@drawable/misnap_gauge_fill_35</item>
+        <item>@drawable/misnap_gauge_fill_40</item>
+        <item>@drawable/misnap_gauge_fill_45</item>
+        <item>@drawable/misnap_gauge_fill_50</item>
+        <item>@drawable/misnap_gauge_fill_55</item>
+        <item>@drawable/misnap_gauge_fill_60</item>
+        <item>@drawable/misnap_gauge_fill_65</item>
+        <item>@drawable/misnap_gauge_fill_70</item>
+        <item>@drawable/misnap_gauge_fill_75</item>
+        <item>@drawable/misnap_gauge_fill_80</item>
+        <item>@drawable/misnap_gauge_fill_85</item>
+        <item>@drawable/misnap_gauge_fill_90</item>
+        <item>@drawable/misnap_gauge_fill_95</item>
+        <item>@drawable/misnap_gauge_fill_100</item>
+    </array>
+</resources>

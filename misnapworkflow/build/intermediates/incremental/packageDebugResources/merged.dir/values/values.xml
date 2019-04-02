@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bug_animation">
+        <item>@drawable/misnap_bug_animation_01</item>
+        <item>@drawable/misnap_bug_animation_02</item>
+        <item>@drawable/misnap_bug_animation_03</item>
+        <item>@drawable/misnap_bug_animation_04</item>
+        <item>@drawable/misnap_bug_animation_05</item>
+        <item>@drawable/misnap_bug_animation_06</item>
+        <item>@drawable/misnap_bug_animation_07</item>
+        <item>@drawable/misnap_bug_animation_08</item>
+        <item>@drawable/misnap_bug_animation_09</item>
+        <item>@drawable/misnap_bug_animation_10</item>
+        <item>@drawable/misnap_bug_animation_11</item>
+        <item>@drawable/misnap_bug_animation_12</item>
+        <item>@drawable/misnap_bug_animation_13</item>
+        <item>@drawable/misnap_bug_animation_14</item>
+        <item>@drawable/misnap_bug_animation_15</item>
+        <item>@drawable/misnap_bug_animation_16</item>
+        <item>@drawable/misnap_bug_animation_17</item>
+        <item>@drawable/misnap_bug_animation_18</item>
+        <item>@drawable/misnap_bug_animation_19</item>
+        <item>@drawable/misnap_bug_animation_20</item>
+        <item>@drawable/misnap_bug_animation_21</item>
+        <item>@drawable/misnap_bug_animation_22</item>
+        <item>@drawable/misnap_bug_animation_23</item>
+        <item>@drawable/misnap_bug_animation_24</item>
+        <item>@drawable/misnap_bug_animation_25</item>
+        <item>@drawable/misnap_bug_animation_26</item>
+        <item>@drawable/misnap_bug_animation_27</item>
+        <item>@drawable/misnap_bug_animation_28</item>
+        <item>@drawable/misnap_bug_animation_29</item>
+        <item>@drawable/misnap_bug_animation_30</item>
+        <item>@drawable/misnap_bug_animation_31</item>
+        <item>@drawable/misnap_bug_animation_32</item>
+        <item>@drawable/misnap_bug_animation_33</item>
+        <item>@drawable/misnap_bug_animation_34</item>
+        <item>@drawable/misnap_bug_animation_35</item>
+        <item>@drawable/misnap_bug_animation_36</item>
+        <item>@drawable/misnap_bug_animation_37</item>
+        <item>@drawable/misnap_bug_animation_38</item>
+        <item>@drawable/misnap_bug_animation_39</item>
+        <item>@drawable/misnap_bug_animation_40</item>
+    </array>
+    <array name="bug_still">
+        <item>@drawable/misnap_bug_animation_40</item>
+    </array>
+    <array name="gauge_close_imgs">
+        <item>@drawable/misnap_gauge_open_23</item>
+        <item>@drawable/misnap_gauge_open_22</item>
+        <item>@drawable/misnap_gauge_open_21</item>
+        <item>@drawable/misnap_gauge_open_20</item>
+        <item>@drawable/misnap_gauge_open_19</item>
+        <item>@drawable/misnap_gauge_open_18</item>
+        <item>@drawable/misnap_gauge_open_17</item>
+        <item>@drawable/misnap_gauge_open_16</item>
+        <item>@drawable/misnap_gauge_open_15</item>
+        <item>@drawable/misnap_gauge_open_14</item>
+        <item>@drawable/misnap_gauge_open_13</item>
+        <item>@drawable/misnap_gauge_open_12</item>
+        <item>@drawable/misnap_gauge_open_11</item>
+        <item>@drawable/misnap_gauge_open_10</item>
+        <item>@drawable/misnap_gauge_open_09</item>
+        <item>@drawable/misnap_gauge_open_08</item>
+        <item>@drawable/misnap_gauge_open_07</item>
+        <item>@drawable/misnap_gauge_open_06</item>
+        <item>@drawable/misnap_gauge_open_05</item>
+        <item>@drawable/misnap_gauge_open_04</item>
+        <item>@drawable/misnap_gauge_open_03</item>
+        <item>@drawable/misnap_gauge_open_02</item>
+        <item>@drawable/misnap_gauge_open_01</item>
+    </array>
+    <array name="gauge_fill_imgs">
+        <item>@drawable/misnap_gauge_fill_00</item>
+        <item>@drawable/misnap_gauge_fill_05</item>
+        <item>@drawable/misnap_gauge_fill_10</item>
+        <item>@drawable/misnap_gauge_fill_15</item>
+        <item>@drawable/misnap_gauge_fill_20</item>
+        <item>@drawable/misnap_gauge_fill_25</item>
+        <item>@drawable/misnap_gauge_fill_30</item>
+        <item>@drawable/misnap_gauge_fill_35</item>
+        <item>@drawable/misnap_gauge_fill_40</item>
+        <item>@drawable/misnap_gauge_fill_45</item>
+        <item>@drawable/misnap_gauge_fill_50</item>
+        <item>@drawable/misnap_gauge_fill_55</item>
+        <item>@drawable/misnap_gauge_fill_60</item>
+        <item>@drawable/misnap_gauge_fill_65</item>
+        <item>@drawable/misnap_gauge_fill_70</item>
+        <item>@drawable/misnap_gauge_fill_75</item>
+        <item>@drawable/misnap_gauge_fill_80</item>
+        <item>@drawable/misnap_gauge_fill_85</item>
+        <item>@drawable/misnap_gauge_fill_90</item>
+        <item>@drawable/misnap_gauge_fill_95</item>
+        <item>@drawable/misnap_gauge_fill_100</item>
+    </array>
+    <array name="gauge_finish_imgs">
+        <item>@drawable/misnap_gauge_fill_100</item>
+        <item>@drawable/misnap_gauge_fill_00</item>
+        <item>@drawable/misnap_gauge_fill_100</item>
+        <item>@drawable/misnap_gauge_fill_00</item>
+        <item>@drawable/misnap_gauge_fill_100</item>
+    </array>
+    <array name="gauge_open_imgs">
+        <item>@drawable/misnap_gauge_open_01</item>
+        <item>@drawable/misnap_gauge_open_02</item>
+        <item>@drawable/misnap_gauge_open_03</item>
+        <item>@drawable/misnap_gauge_open_04</item>
+        <item>@drawable/misnap_gauge_open_05</item>
+        <item>@drawable/misnap_gauge_open_06</item>
+        <item>@drawable/misnap_gauge_open_07</item>
+        <item>@drawable/misnap_gauge_open_08</item>
+        <item>@drawable/misnap_gauge_open_09</item>
+        <item>@drawable/misnap_gauge_open_10</item>
+        <item>@drawable/misnap_gauge_open_11</item>
+        <item>@drawable/misnap_gauge_open_12</item>
+        <item>@drawable/misnap_gauge_open_13</item>
+        <item>@drawable/misnap_gauge_open_14</item>
+        <item>@drawable/misnap_gauge_open_15</item>
+        <item>@drawable/misnap_gauge_open_16</item>
+        <item>@drawable/misnap_gauge_open_17</item>
+        <item>@drawable/misnap_gauge_open_18</item>
+        <item>@drawable/misnap_gauge_open_19</item>
+        <item>@drawable/misnap_gauge_open_20</item>
+        <item>@drawable/misnap_gauge_open_21</item>
+        <item>@drawable/misnap_gauge_open_22</item>
+        <item>@drawable/misnap_gauge_open_23</item>
+    </array>
+    <color name="misnap_black">#000000</color>
+    <color name="misnap_detailed_failover_button_background">#424242</color>
+    <color name="misnap_failover_background_scr">#424242</color>
+    <color name="misnap_manual_help_background_scr">#E1E1E2</color>
+    <color name="misnap_video_help_background_scr">#E1E1E2</color>
+    <dimen name="misnapworkflow_activity_horizontal_margin">0dp</dimen>
+    <dimen name="misnapworkflow_activity_vertical_margin">0dp</dimen>
+    <dimen name="misnapworkflow_failover_font_size">24sp</dimen>
+    <dimen name="misnapworkflow_help_screen_font_size">26sp</dimen>
+    <string name="misnap_busy_background">Use a plain background</string>
+    <string name="misnap_camera_permission_rationale">Camera access is required to snap a photo of your document.</string>
+    <string name="misnap_camera_permission_title">Permission Reason</string>
+    <string name="misnap_check_back_text">Back Image</string>
+    <string name="misnap_check_front_text">Front Image</string>
+    <string name="misnap_detailed_failover_first_btn_string">Cancel Capture</string>
+    <string name="misnap_detailed_failover_second_btn_string">Capture Manually</string>
+    <string name="misnap_detailed_failover_third_btn_string">Retry Autocapture</string>
+    <string name="misnap_detailed_failover_title">We couldn\'t find a clean image.</string>
+    <string name="misnap_dont_show_again">Don\'t show this again</string>
+    <string name="misnap_failover_first_btn_string">Cancel Capture</string>
+    <string name="misnap_failover_second_btn_string">Capture Manually</string>
+    <string name="misnap_failure_reason_busy_background">Place the document on a plain uncluttered background</string>
+    <string name="misnap_failure_reason_four_corner_confidence">Center the document with all 4 corners visible</string>
+    <string name="misnap_failure_reason_glare">Avoid glare on the document</string>
+    <string name="misnap_failure_reason_horizontal_min_fill">Move the device closer to the document</string>
+    <string name="misnap_failure_reason_low_contrast">Center the document on a dark background</string>
+    <string name="misnap_failure_reason_max_brightness">Place the document in an area with less light</string>
+    <string name="misnap_failure_reason_min_brightness">Place the document in a well-lit area</string>
+    <string name="misnap_failure_reason_min_padding">Move the device farther away from the document</string>
+    <string name="misnap_failure_reason_rotation_angle">Hold the device directly over the document</string>
+    <string name="misnap_failure_reason_sharpness">Hold the device steady</string>
+    <string name="misnap_failure_reason_skew_angle">Hold the device directly over the document</string>
+    <string name="misnap_failure_reason_unknown">Center the document with all 4 corners visible</string>
+    <string name="misnap_failure_reason_wrong_doc_check_back">Flip the check to scan the back</string>
+    <string name="misnap_failure_reason_wrong_doc_check_front">Use the front of the check with all numbers visible</string>
+    <string name="misnap_failure_reason_wrong_doc_generic">Wrong document suspected</string>
+    <string name="misnap_get_closer">Move closer</string>
+    <string name="misnap_ghost_barcode_tooltip">Please scan the barcode on the back of the driver\'s license</string>
+    <string name="misnap_ghost_image_check">Center check here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_check_manual"><![CDATA[Center check here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_document_landscape">Center card here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_document_landscape_manual"><![CDATA[Center card here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_document_portrait">Center document here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_document_portrait_manual"><![CDATA[Center document here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_drivers_license">Center driver\'s license here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_drivers_license_manual"><![CDATA[Center driver\'s license here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_id_card">Center ID card here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_id_card_manual"><![CDATA[Center ID card here, then press the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_insurance_card">Center insurance card here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_insurance_card_manual"><![CDATA[Center insurance card here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_passport">Center passport here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_passport_manual"><![CDATA[Center passport here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_remittance">Center payment stub here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_remittance_manual"><![CDATA[Center payment stub here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_vin_manual"><![CDATA[Center VIN here then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_w2">Center W2 here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_w2_manual"><![CDATA[Center W2 here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_glare">Reduce glare</string>
+    <string name="misnap_hold_center">Reduce angle</string>
+    <string name="misnap_hold_steady">Hold steady</string>
+    <string name="misnap_id_card_back_text">Back Image</string>
+    <string name="misnap_less_light">Too bright</string>
+    <string name="misnap_low_contrast">Use a dark background</string>
+    <string name="misnap_manual_capture_please_wait">Hold still, please wait…</string>
+    <string name="misnap_manual_ft_message_1_check">Center the check with all 4 corners visible</string>
+    <string name="misnap_manual_ft_message_1_document">Center the document with all 4 corners visible</string>
+    <string name="misnap_manual_ft_message_2"><![CDATA[Press the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_manual_ft_second_btn_string">Continue</string>
+    <string name="misnap_manual_ft_tut_message">Hold Steady and press the snap button when ready</string>
+    <string name="misnap_manual_help_first_btn_string">Cancel</string>
+    <string name="misnap_manual_help_message_1_check">Place the check on a dark, well lit surface with all 4 corners visible</string>
+    <string name="misnap_manual_help_message_1_document">Place the document on a dark, well lit surface with all 4 corners visible</string>
+    <string name="misnap_manual_help_message_2"><![CDATA[Press the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_manual_help_second_btn_string">Continue</string>
+    <string name="misnap_more_light">Move to a well-lit area</string>
+    <string name="misnap_multi_tap_first_btn_string">Cancel</string>
+    <string name="misnap_multi_tap_second_btn_string">Continue</string>
+    <string name="misnap_overlay_cancel">Cancel</string>
+    <string name="misnap_overlay_capture">Snap Photo</string>
+    <string name="misnap_overlay_flash_off">Flash is off</string>
+    <string name="misnap_overlay_flash_on">Flash is on</string>
+    <string name="misnap_overlay_help">Help</string>
+    <string name="misnap_overlay_snap_message">Snap!</string>
+    <string name="misnap_seamless_failover">Switched to manual capture mode. Press the Snap Photo button when ready.</string>
+    <string name="misnap_too_close">Move farther away</string>
+    <string name="misnap_tts_failover_check">Center the check with all 4 corners visible and press the snap photo button when ready.</string>
+    <string name="misnap_tts_failover_document">Center the document with all 4 corners visible and press the snap photo button when ready.</string>
+    <string name="misnap_tts_video_timeout_check">Try placing the check on a dark well lit surface and hold still. We\'ll take the photo for you.</string>
+    <string name="misnap_tts_video_timeout_document">Try placing the document on a dark well lit surface and hold still. We\'ll take the photo for you.</string>
+    <string name="misnap_video_ft_message_1_check">Center the check on the screen</string>
+    <string name="misnap_video_ft_message_1_document">Center the document on the screen</string>
+    <string name="misnap_video_ft_message_2"><![CDATA[Hold still. <b><i>We\'ll take the photo for you</i></b>]]></string>
+    <string name="misnap_video_ft_second_btn_string">Continue</string>
+    <string name="misnap_video_ft_tut_message">Hold Steady and we will take a picture for you</string>
+    <string name="misnap_video_help_first_btn_string">Cancel</string>
+    <string name="misnap_video_help_message_1_check">Try placing the check on a dark, well lit surface</string>
+    <string name="misnap_video_help_message_1_document">Try placing the document on a dark, well lit surface</string>
+    <string name="misnap_video_help_message_2"><![CDATA[Hold still. <b><i>We\'ll take the photo for you</i></b>]]></string>
+    <string name="misnap_video_help_second_btn_string">Continue</string>
+    <string name="misnap_video_session_timeout_first_btn_string">Cancel</string>
+    <string name="misnap_video_session_timeout_second_btn_string">Try Again</string>
+    <string name="misnap_wrong_doc_check_back_expected">Flip check over</string>
+    <string name="misnap_wrong_doc_check_front_expected">Use front of check</string>
+    <string name="misnap_wrong_doc_generic">Wrong document suspected</string>
+    <string name="misnap_wrong_document_check_front_found">Please flip the check over. Check back was expected, but check front was found.</string>
+    <style name="MiSnapProgressDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">@color/misnap_black</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="MiSnapWorkflowShadowTheme">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+    <style name="MiSnapWorkflowTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="MisnapGhostTextOverlayTheme">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="misnapworkflow_failover_font_size">48sp</dimen>
+    <dimen name="misnapworkflow_help_screen_font_size">50sp</dimen>
+</resources>

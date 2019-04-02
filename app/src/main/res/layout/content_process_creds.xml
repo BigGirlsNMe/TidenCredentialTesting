@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rmangiapane.tidencredentialtesting.ProcessCredsActivity"
+    tools:showIn="@layout/activity_process_creds"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Client ID is: "
+        android:id="@+id/ClientIDLabel"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineTop"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clientIDTV"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineTop"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintStart_toEndOf="@id/ClientIDLabel"/>
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guidelineTop"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2"
+        tools:layout_editor_absoluteY="102dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordTV"
+        android:visibility="invisible"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/DurationTV"
+        app:layout_constraintTop_toTopOf="@+id/guidelineTop"
+        />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.53"
+        tools:layout_editor_absoluteY="271dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgView"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelineTop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVTokentext"
+        app:layout_constraintTop_toBottomOf="@+id/guideline"
+        app:layout_constraintStart_toEndOf="parent"
+        android:text="Your Access Token is: "/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/TolkenTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTokentext"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="misnap_video_help_background_scr">#E1E1E2</color>
+    <color name="misnap_manual_help_background_scr">#E1E1E2</color>
+    <color name="misnap_failover_background_scr">#424242</color>
+    <color name="misnap_detailed_failover_button_background">#424242</color>
+    <color name="misnap_black">#000000</color>
+</resources>

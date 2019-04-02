@@ -1,0 +1,63 @@
+<android.support.percent.PercentRelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/misnapworkflow_activity_vertical_margin"
+android:paddingLeft="@dimen/misnapworkflow_activity_horizontal_margin"
+android:paddingRight="@dimen/misnapworkflow_activity_horizontal_margin"
+android:paddingTop="@dimen/misnapworkflow_activity_vertical_margin"
+android:background="@drawable/misnap_help_repeating_background_dots">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:background="@color/background_floating_material_dark"
+    android:layout_alignParentBottom="true">
+    <Button
+        android:id="@+id/manual_help_cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/misnap_manual_help_first_btn_string"
+        android:contentDescription="@string/misnap_manual_help_first_btn_string"/>
+    <Button
+        android:id="@+id/manual_help_continue_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/manual_help_cancel_btn"
+        android:text="@string/misnap_manual_help_second_btn_string"
+        android:contentDescription="@string/misnap_manual_help_second_btn_string"/>
+</RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/manualHelpScr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/misnap_detailed_failover_buttons"
+    app:layout_marginTopPercent="4.05%"
+    app:layout_marginBottomPercent="4.05%"
+    app:layout_marginLeftPercent="4.75%"
+    app:layout_marginRightPercent="8.8%"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <include
+        android:id="@+id/misnap_manual_help_message_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/misnap_arrow_help_screen"
+        />
+
+    <include
+        android:id="@+id/misnap_manual_help_message_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/misnap_arrow_help_screen"
+        />
+
+</LinearLayout>
+
+</android.support.percent.PercentRelativeLayout>
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rmangiapane.tidencredentialtesting.DossierTestActivity"
+    tools:showIn="@layout/activity_document_test">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TestTV"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageViewDossier"
+        app:layout_constraintTop_toBottomOf="@+id/TestTV"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        app:layout_constraintRight_toLeftOf="@+id/StatusTV"
+        app:layout_constraintBottom_toTopOf="@id/guiderDown"
+        android:id="@+id/StatusLabel"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDossier"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/StatusTV"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDossier"
+        app:layout_constraintBottom_toTopOf="@id/guiderDown"
+        app:layout_constraintLeft_toRightOf="@+id/StatusLabel"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="100dp"
+        android:id="@+id/guiderDown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name: "
+        android:id="@+id/NameField"
+        app:layout_constraintTop_toBottomOf="@id/guiderDown"
+        app:layout_constraintRight_toLeftOf="@+id/NameTV"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameTV"
+        app:layout_constraintTop_toBottomOf="@id/guiderDown"
+        app:layout_constraintLeft_toRightOf="@id/NameField"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guiderAddy"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/NameField"
+        app:layout_constraintGuide_begin="150dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AddyLabel"
+        app:layout_constraintTop_toBottomOf="@id/guiderAddy"
+        app:layout_constraintRight_toLeftOf="@+id/AddressTV"
+        android:text="Address: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/guiderAddy"
+        android:id="@+id/AddressTV"
+        app:layout_constraintLeft_toRightOf="@+id/AddyLabel"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="200dp"
+        android:id="@+id/imgSep"
+        android:orientation="horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ImageFieldHeader"
+        android:text="Cropped Image"
+        app:layout_constraintTop_toBottomOf="@id/imgSep"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+       />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FrontImageView"
+        app:layout_constraintTop_toBottomOf="@id/imgSep"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+</android.support.constraint.ConstraintLayout>

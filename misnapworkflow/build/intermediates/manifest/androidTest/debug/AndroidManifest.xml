@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miteksystems.misnap.misnapworkflow.test" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.miteksystems.misnap.misnapworkflow.test"
+        android:targetPackage="com.miteksystems.misnap.misnapworkflow.test" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:debuggable="true"
+        android:largeHeap="true" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.miteksystems.misnap.misnapworkflow.MiSnapWorkflowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:process=":MiSnap"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/MiSnapWorkflowTheme" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" /> <!-- Declare the MiSnap check capture activity -->
+        <activity
+            android:name="com.miteksystems.misnap.MiSnapBareActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:process=":MiSnap"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/MiSnapTheme" />
+    </application>
+
+</manifest>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="misnap_camera_permission_title">Permission Reason</string>
+    <string name="misnap_camera_permission_rationale">Camera access is required to snap a photo of your document.</string>
+    <string name="misnap_video_ft_tut_message">Hold Steady and we will take a picture for you</string>
+    <string name="misnap_manual_ft_tut_message">Hold Steady and press the snap button when ready</string>
+    <string name="misnap_video_session_timeout_first_btn_string">Cancel</string>
+    <string name="misnap_video_session_timeout_second_btn_string">Try Again</string>
+    <string name="misnap_failover_first_btn_string">Cancel Capture</string>
+    <string name="misnap_failover_second_btn_string">Capture Manually</string>
+    <string name="misnap_detailed_failover_title">We couldn\'t find a clean image.</string>
+    <string name="misnap_detailed_failover_first_btn_string">Cancel Capture</string>
+    <string name="misnap_detailed_failover_second_btn_string">Capture Manually</string>
+    <string name="misnap_detailed_failover_third_btn_string">Retry Autocapture</string>
+    <string name="misnap_video_help_first_btn_string">Cancel</string>
+    <string name="misnap_video_help_second_btn_string">Continue</string>
+    <string name="misnap_video_ft_second_btn_string">Continue</string>
+    <string name="misnap_manual_help_first_btn_string">Cancel</string>
+    <string name="misnap_manual_help_second_btn_string">Continue</string>
+    <string name="misnap_manual_ft_second_btn_string">Continue</string>
+    <string name="misnap_multi_tap_first_btn_string">Cancel</string>
+    <string name="misnap_multi_tap_second_btn_string">Continue</string>
+    <string name="misnap_manual_capture_please_wait">Hold still, please wait…</string>
+
+    <!-- For optional workflow changes -->
+    <string name="misnap_seamless_failover">Switched to manual capture mode. Press the Snap Photo button when ready.</string>
+
+    <!-- For MiSnap Help Screens-->
+    <string name="misnap_video_help_message_1_check">Try placing the check on a dark, well lit surface</string>
+    <string name="misnap_video_help_message_1_document">Try placing the document on a dark, well lit surface</string>
+    <string name="misnap_video_help_message_2"><![CDATA[Hold still. <b><i>We\'ll take the photo for you</i></b>]]></string>
+
+    <string name="misnap_video_ft_message_1_check">Center the check on the screen</string>
+    <string name="misnap_video_ft_message_1_document">Center the document on the screen</string>
+    <string name="misnap_video_ft_message_2"><![CDATA[Hold still. <b><i>We\'ll take the photo for you</i></b>]]></string>
+
+    <string name="misnap_manual_help_message_1_check">Place the check on a dark, well lit surface with all 4 corners visible</string>
+    <string name="misnap_manual_help_message_1_document">Place the document on a dark, well lit surface with all 4 corners visible</string>
+    <string name="misnap_manual_help_message_2"><![CDATA[Press the <b><i>Snap Photo</i></b> button when ready]]></string>
+
+    <string name="misnap_manual_ft_message_1_check">Center the check with all 4 corners visible</string>
+    <string name="misnap_manual_ft_message_1_document">Center the document with all 4 corners visible</string>
+    <string name="misnap_manual_ft_message_2"><![CDATA[Press the <b><i>Snap Photo</i></b> button when ready]]></string>
+
+    <!--Accessibility strings-->
+    <string name="misnap_tts_failover_check">Center the check with all 4 corners visible and press the snap photo button when ready.</string>
+    <string name="misnap_tts_failover_document">Center the document with all 4 corners visible and press the snap photo button when ready.</string>
+    <string name="misnap_tts_video_timeout_check">Try placing the check on a dark well lit surface and hold still. We\'ll take the photo for you.</string>
+    <string name="misnap_tts_video_timeout_document">Try placing the document on a dark well lit surface and hold still. We\'ll take the photo for you.</string>
+
+    <!-- For MiSnap Classic hint messages -->
+    <string name="misnap_more_light">Move to a well-lit area</string>
+    <string name="misnap_less_light">Too bright</string>
+    <string name="misnap_hold_steady">Hold steady</string>
+    <string name="misnap_get_closer">Move closer</string>
+    <string name="misnap_too_close">Move farther away</string>
+    <string name="misnap_hold_center">Reduce angle</string>
+    <string name="misnap_glare">Reduce glare</string>
+    <string name="misnap_busy_background">Use a plain background</string>
+    <string name="misnap_low_contrast">Use a dark background</string>
+    <string name="misnap_wrong_doc_generic">Wrong document suspected</string>
+    <string name="misnap_wrong_doc_check_back_expected">Flip check over</string>
+    <string name="misnap_wrong_doc_check_front_expected">Use front of check</string>
+
+    <!-- For wrong document toast -->
+    <string name="misnap_wrong_document_check_front_found">Please flip the check over. Check back was expected, but check front was found.</string>
+
+    <!-- Friendly names for failure reason codes, mapped to OnFrameProcessedEvent -->
+    <string name="misnap_failure_reason_unknown">Center the document with all 4 corners visible</string>
+    <string name="misnap_failure_reason_four_corner_confidence">Center the document with all 4 corners visible</string>
+    <string name="misnap_failure_reason_horizontal_min_fill">Move the device closer to the document</string>
+    <string name="misnap_failure_reason_min_brightness">Place the document in a well-lit area</string>
+    <string name="misnap_failure_reason_max_brightness">Place the document in an area with less light</string>
+    <string name="misnap_failure_reason_skew_angle">Hold the device directly over the document</string>
+    <string name="misnap_failure_reason_sharpness">Hold the device steady</string>
+    <string name="misnap_failure_reason_min_padding">Move the device farther away from the document</string>
+    <string name="misnap_failure_reason_rotation_angle">Hold the device directly over the document</string>
+    <string name="misnap_failure_reason_low_contrast">Center the document on a dark background</string>
+    <string name="misnap_failure_reason_busy_background">Place the document on a plain uncluttered background</string>
+    <string name="misnap_failure_reason_wrong_doc_generic">Wrong document suspected</string>
+    <string name="misnap_failure_reason_wrong_doc_check_front">Use the front of the check with all numbers visible</string>
+    <string name="misnap_failure_reason_wrong_doc_check_back">Flip the check to scan the back</string>
+    <string name="misnap_failure_reason_glare">Avoid glare on the document</string>
+
+    <!-- For MiSnap Classic overlay -->
+    <string name="misnap_overlay_flash_on">Flash is on</string>
+    <string name="misnap_overlay_flash_off">Flash is off</string>
+    <string name="misnap_overlay_help">Help</string>
+    <string name="misnap_overlay_cancel">Cancel</string>
+    <string name="misnap_overlay_capture">Snap Photo</string>
+    <string name="misnap_overlay_snap_message">Snap!</string>
+    <string name="misnap_check_front_text">Front Image</string>
+    <string name="misnap_check_back_text">Back Image</string>
+    <string name="misnap_id_card_back_text">Back Image</string>
+    <string name="misnap_ghost_image_remittance">Center payment stub here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_remittance_manual"><![CDATA[Center payment stub here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_check">Center check here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_check_manual"><![CDATA[Center check here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_drivers_license">Center driver\'s license here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_drivers_license_manual"><![CDATA[Center driver\'s license here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_id_card">Center ID card here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_id_card_manual"><![CDATA[Center ID card here, then press the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_insurance_card">Center insurance card here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_insurance_card_manual"><![CDATA[Center insurance card here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_vin_manual"><![CDATA[Center VIN here then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_w2">Center W2 here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_w2_manual"><![CDATA[Center W2 here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_passport">Center passport here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_passport_manual"><![CDATA[Center passport here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_document_landscape">Center card here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_document_landscape_manual"><![CDATA[Center card here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_image_document_portrait">Center document here and wait. \n We\'ll take the photo for you</string>
+    <string name="misnap_ghost_image_document_portrait_manual"><![CDATA[Center document here, then press <br> the <b><i>Snap Photo</i></b> button when ready]]></string>
+    <string name="misnap_ghost_barcode_tooltip">Please scan the barcode on the back of the driver\'s license</string>
+    <string name="misnap_dont_show_again">Don\'t show this again</string>
+
+</resources>

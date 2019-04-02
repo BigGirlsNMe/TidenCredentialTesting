@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/misnapworkflow_activity_vertical_margin"
+    android:paddingLeft="@dimen/misnapworkflow_activity_horizontal_margin"
+    android:paddingRight="@dimen/misnapworkflow_activity_horizontal_margin"
+    android:paddingTop="@dimen/misnapworkflow_activity_vertical_margin"
+    android:background="@color/misnap_video_help_background_scr">
+
+    <ImageView
+        android:id="@+id/videoTimeoutHelpScr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="@color/background_floating_material_dark"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/video_session_timeout_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/misnap_video_session_timeout_first_btn_string"
+            android:contentDescription="@string/misnap_video_session_timeout_first_btn_string"/>
+        <Button
+            android:id="@+id/video_session_timeout_continue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/video_session_timeout_cancel_btn"
+            android:text="@string/misnap_video_session_timeout_second_btn_string"
+            android:contentDescription="@string/misnap_video_session_timeout_second_btn_string"/>
+    </RelativeLayout>
+
+</RelativeLayout>

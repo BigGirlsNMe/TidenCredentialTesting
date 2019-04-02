@@ -1,0 +1,66 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.targetSDKVersion
+    buildToolsVersion project.buildtoolsVersion
+
+    defaultConfig {
+        minSdkVersion project.coreMinSDK
+        targetSdkVersion project.targetSDKVersion
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    // Publish both debug and release libraries
+    publishNonDefault true
+
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable true
+            minifyEnabled false
+            shrinkResources false
+        }
+
+        release {
+            signingConfig signingConfigs.debug
+            debuggable false
+            jniDebuggable false
+            minifyEnabled true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "com.android.support:appcompat-v7:$supportVersion"
+    compile "com.android.support:percent:$supportVersion"
+
+    // Add dependency for MiSnap external API
+    compile(name: 'api-release', ext: 'aar')
+	
+    // Add dependencies for MiSnap
+    compile(name: 'misnapcamera-release', ext: 'aar') {
+        exclude module: 'appcompat-v7'
+    }
+    compile(name: 'misnapscience-release', ext: 'aar') {
+        exclude module: 'appcompat-v7'
+    }
+
+    // Eventbus dependency
+    compile "de.greenrobot:eventbus:$eventbusVersion"
+
+   // compile project(':misnapworkflow')
+
+    // Add OPTIONAL dependency for barcode scanning
+    compile(name: 'barcode-release', ext: 'aar')
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}

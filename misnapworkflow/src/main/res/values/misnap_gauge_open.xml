@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gauge_open_imgs">
+        <item>@drawable/misnap_gauge_open_01</item>
+        <item>@drawable/misnap_gauge_open_02</item>
+        <item>@drawable/misnap_gauge_open_03</item>
+        <item>@drawable/misnap_gauge_open_04</item>
+        <item>@drawable/misnap_gauge_open_05</item>
+        <item>@drawable/misnap_gauge_open_06</item>
+        <item>@drawable/misnap_gauge_open_07</item>
+        <item>@drawable/misnap_gauge_open_08</item>
+        <item>@drawable/misnap_gauge_open_09</item>
+        <item>@drawable/misnap_gauge_open_10</item>
+        <item>@drawable/misnap_gauge_open_11</item>
+        <item>@drawable/misnap_gauge_open_12</item>
+        <item>@drawable/misnap_gauge_open_13</item>
+        <item>@drawable/misnap_gauge_open_14</item>
+        <item>@drawable/misnap_gauge_open_15</item>
+        <item>@drawable/misnap_gauge_open_16</item>
+        <item>@drawable/misnap_gauge_open_17</item>
+        <item>@drawable/misnap_gauge_open_18</item>
+        <item>@drawable/misnap_gauge_open_19</item>
+        <item>@drawable/misnap_gauge_open_20</item>
+        <item>@drawable/misnap_gauge_open_21</item>
+        <item>@drawable/misnap_gauge_open_22</item>
+        <item>@drawable/misnap_gauge_open_23</item>
+    </array>
+</resources>
